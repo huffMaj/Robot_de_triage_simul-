@@ -47,25 +47,28 @@ simple_sorter_sim/
 │   └── sorter_sim.rviz        # Configuration RViz
 ├── package.xml
 └── setup.py
-⚙️ Installation et Lancement
+
+
+⚙️ Installation et Lancement:
 
 1.    Installer ROS 2 Humble et Colcon.
 
  2.   Cloner ce dépôt dans un workspace ROS 2 :
 
-cd ~/ros2_ws/src
-git clone <repository-url>
+       cd ~/ros2_ws/src
+      git clone <repository-url>
 
 3.Compiler le package :
 
-cd ~/ros2_ws
-colcon build --packages-select simple_sorter_sim
-source install/setup.bash
+        cd ~/ros2_ws
+       colcon build --packages-select simple_sorter_sim
+       source install/setup.bash
 
 4.Lancer la simulation :
 
-ros2 launch simple_sorter_sim sorter_simulation.launch.py
-📌 Remarques
+    ros2 launch simple_sorter_sim sorter_simulation.launch.py
+    
+📌 Remarques:
 
     La prise et dépose des balles est simulée par un changement de frame_id dans TF.
 

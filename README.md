@@ -5,6 +5,8 @@
 
 Ce projet implémente la simulation d’un robot mobile à roues équipé d’un bras articulé à 2 degrés de liberté, capable de trier des objets colorés (sphères) dans des boîtes de couleurs correspondantes.
 La simulation est entièrement visualisée sous RViz 2 via des transformations TF et des markers.
+
+
 🎯 Fonctionnalités
 
     Déplacement simulé de la base mobile dans l’environnement RViz.

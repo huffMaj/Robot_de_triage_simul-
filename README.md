@@ -1,5 +1,7 @@
 📦 Color Sorting Robot Simulation
+
 📖 Description
+
 
 Ce projet implémente la simulation d’un robot mobile à roues équipé d’un bras articulé à 2 degrés de liberté, capable de trier des objets colorés (sphères) dans des boîtes de couleurs correspondantes.
 La simulation est entièrement visualisée sous RViz 2 via des transformations TF et des markers.
@@ -35,18 +37,19 @@ La simulation est entièrement visualisée sous RViz 2 via des transformations T
 
     Colcon (compilation des packages ROS 2)
 
-📂 Structure du Package
-simple_sorter_sim/
-├── urdf/
-│   └── simple_arm.urdf        # Description du robot
-├── launch/
-│   └── sorter_simulation.launch.py  # Script de lancement
-├── scripts/
-│   └── sorter_logic.py        # Node ROS 2 pour la logique de tri
-├── rviz/
-│   └── sorter_sim.rviz        # Configuration RViz
-├── package.xml
-└── setup.py
+📂 Structure du Package:
+
+     simple_sorter_sim/
+     ├── urdf/
+     │   └── simple_arm.urdf        # Description du robot
+     ├── launch/
+     │   └── sorter_simulation.launch.py  # Script de lancement
+     ├── scripts/
+     │   └── sorter_logic.py        # Node ROS 2 pour la logique de tri
+     ├── rviz/
+     │   └── sorter_sim.rviz        # Configuration RViz
+     ├── package.xml
+     └── setup.py
 
 
 ⚙️ Installation et Lancement:
